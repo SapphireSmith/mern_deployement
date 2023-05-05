@@ -6,7 +6,7 @@ require("dotenv").config();
 
 // middleware
 const corsOptions = {
-    origin: "https://mern-deployment-backend.onrender.com" // frontend URI (ReactJS)
+    origin: "https://mern-deployment-frontend.onrender.com" // frontend URI (ReactJS)
 }
 app.use(express.json());
 app.use(cors(corsOptions));
